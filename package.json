@@ -1,12 +1,12 @@
 {
   "name": "CypherX",
-  "version": "1.9.8",
+  "version": "1.9.9",
   "description": "The best Whatsapp bot",
   "type": "commonjs",
   "main": "index.js",
   "engines": {
-    "node": "20.x",
-    "npm": "10.x"
+    "node": ">=20.x",
+    "npm": ">=10.x"
   },
   "scripts": {
     "start": "node index.js",
@@ -53,6 +53,14 @@
   },
   "overrides": {
     "jimp": "0.22.12"
+  },
+  "allowScripts": {
+    "@whiskeysockets/baileys": true,
+    "better-sqlite3": true,
+    "core-js": true,
+    "protobufjs": true,
+    "sleep": true,
+    "sqlite3": true
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
